@@ -1,0 +1,16 @@
+c:\users\austin.hollenbeck\documents\visual studio 2013\Projects\SpriteSheet\SpriteSheet\bin\Debug\SpriteSheet.exe.config
+c:\users\austin.hollenbeck\documents\visual studio 2013\Projects\SpriteSheet\SpriteSheet\bin\Debug\SpriteSheet.exe
+c:\users\austin.hollenbeck\documents\visual studio 2013\Projects\SpriteSheet\SpriteSheet\bin\Debug\SpriteSheet.pdb
+c:\users\austin.hollenbeck\documents\visual studio 2013\Projects\SpriteSheet\SpriteSheet\obj\Debug\MainWindow.baml
+c:\users\austin.hollenbeck\documents\visual studio 2013\Projects\SpriteSheet\SpriteSheet\obj\Debug\MainWindow.g.cs
+c:\users\austin.hollenbeck\documents\visual studio 2013\Projects\SpriteSheet\SpriteSheet\obj\Debug\App.g.cs
+c:\users\austin.hollenbeck\documents\visual studio 2013\Projects\SpriteSheet\SpriteSheet\obj\Debug\SpriteSheet_MarkupCompile.cache
+c:\users\austin.hollenbeck\documents\visual studio 2013\Projects\SpriteSheet\SpriteSheet\obj\Debug\SpriteSheet.g.resources
+c:\users\austin.hollenbeck\documents\visual studio 2013\Projects\SpriteSheet\SpriteSheet\obj\Debug\SpriteSheet.Properties.Resources.resources
+c:\users\austin.hollenbeck\documents\visual studio 2013\Projects\SpriteSheet\SpriteSheet\obj\Debug\SpriteSheet.csproj.GenerateResource.Cache
+c:\users\austin.hollenbeck\documents\visual studio 2013\Projects\SpriteSheet\SpriteSheet\obj\Debug\SpriteSheet.exe
+c:\users\austin.hollenbeck\documents\visual studio 2013\Projects\SpriteSheet\SpriteSheet\obj\Debug\SpriteSheet.pdb
+c:\users\austin.hollenbeck\documents\visual studio 2013\Projects\SpriteSheet\SpriteSheet\obj\Debug\SpriteSheet.csprojResolveAssemblyReference.cache
+C:\Users\austin.hollenbeck\Documents\Visual Studio 2013\Projects\SpriteSheet\SpriteSheet\bin\Debug\WriteableBitmapEx.Wpf.dll
+C:\Users\austin.hollenbeck\Documents\Visual Studio 2013\Projects\SpriteSheet\SpriteSheet\bin\Debug\WriteableBitmapEx.Wpf.pdb
+C:\Users\austin.hollenbeck\Documents\Visual Studio 2013\Projects\SpriteSheet\SpriteSheet\bin\Debug\WriteableBitmapEx.Wpf.xml
