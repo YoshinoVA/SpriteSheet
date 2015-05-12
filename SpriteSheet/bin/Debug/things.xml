@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<TextureAtlas ImagePath="things.xml">
+  <sprite X="96" Y="96" Width="34" Height="57" />
+  <sprite X="96" Y="96" Width="34" Height="57" />
+  <sprite X="96" Y="96" Width="32" Height="57" />
+</TextureAtlas>

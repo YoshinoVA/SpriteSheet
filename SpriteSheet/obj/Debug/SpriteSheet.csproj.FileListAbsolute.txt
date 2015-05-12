@@ -10,7 +10,7 @@ c:\users\austin.hollenbeck\documents\visual studio 2013\Projects\SpriteSheet\Spr
 c:\users\austin.hollenbeck\documents\visual studio 2013\Projects\SpriteSheet\SpriteSheet\obj\Debug\SpriteSheet.csproj.GenerateResource.Cache
 c:\users\austin.hollenbeck\documents\visual studio 2013\Projects\SpriteSheet\SpriteSheet\obj\Debug\SpriteSheet.exe
 c:\users\austin.hollenbeck\documents\visual studio 2013\Projects\SpriteSheet\SpriteSheet\obj\Debug\SpriteSheet.pdb
-c:\users\austin.hollenbeck\documents\visual studio 2013\Projects\SpriteSheet\SpriteSheet\obj\Debug\SpriteSheet.csprojResolveAssemblyReference.cache
 C:\Users\austin.hollenbeck\Documents\Visual Studio 2013\Projects\SpriteSheet\SpriteSheet\bin\Debug\WriteableBitmapEx.Wpf.dll
 C:\Users\austin.hollenbeck\Documents\Visual Studio 2013\Projects\SpriteSheet\SpriteSheet\bin\Debug\WriteableBitmapEx.Wpf.pdb
 C:\Users\austin.hollenbeck\Documents\Visual Studio 2013\Projects\SpriteSheet\SpriteSheet\bin\Debug\WriteableBitmapEx.Wpf.xml
+C:\Users\austin.hollenbeck\Documents\Visual Studio 2013\Projects\SpriteSheet\SpriteSheet\obj\Debug\SpriteSheet.csprojResolveAssemblyReference.cache

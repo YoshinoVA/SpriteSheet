@@ -3,8 +3,9 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="450" Width="900">
     <Grid>
-        <Button Name="button" Click="button_Click" Margin="71,313,634,48" >Select Files</Button>
-        <Button Name="exButton" Margin="396,313,325,48" Click="exButton_Click">Export Files</Button>
+        <Button Name="button" Click="button_Click" Margin="71,313,704,48" >Select Files</Button>
+        <Button Name="exButton" Margin="255,313,527,48" Click="exButton_Click">Export Files</Button>
+        <Button Name="XMLExport" Margin="430,313,362,48" Click="XMLexport_Click">export XML</Button>
         <ListBox Name="ListBox1" Margin="669,22,67,48"></ListBox>
         <Canvas Name="picBox1" Margin="155,34,325,112"></Canvas>
     </Grid>
