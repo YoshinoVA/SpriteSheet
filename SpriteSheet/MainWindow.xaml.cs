@@ -128,11 +128,11 @@ namespace SpriteSheet
                 for (int i = 0; i < images.Count; i++)
                 {
                     XmlElement SpriteChild = doc.CreateElement("sprite");
-                    string x = images[i].DpiX.ToString();
-                    SpriteChild.SetAttribute("X", x);
+                    //string x = images[i].X.ToString();
+                    //SpriteChild.SetAttribute("X", x);
 
-                    string y = images[i].DpiY.ToString();
-                    SpriteChild.SetAttribute("Y", y);
+                    //string y = images[i].Y.ToString();
+                    //SpriteChild.SetAttribute("Y", y);
 
                     string width = images[i].Width.ToString();
                     SpriteChild.SetAttribute("Width", width);
