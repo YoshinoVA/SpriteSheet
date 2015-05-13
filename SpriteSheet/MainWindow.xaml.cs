@@ -23,10 +23,18 @@ namespace SpriteSheet
     // <summary>
     // Interaction logic for MainWindow.xaml
     // </summary>
+
+    public partial class storePosition
+    {
+       public BitmapImage images2;
+       public int X;
+       public int Y;
+    }
+
         public partial class MainWindow : Window
         {
             double total = 0.0;
-            List<BitmapImage> images = new List<BitmapImage>();
+            List<storePosition> images = new List<storePosition>();
             //string[] fName;
 
             public MainWindow()
@@ -69,7 +77,11 @@ namespace SpriteSheet
 
                     image.Source = new BitmapImage(new Uri(userPrompt.FileName));
                     picBox1.Children.Add(image);
-                    images.Add(bi);
+                    storePosition bi2 = new storePosition();
+                    bi2.images2 = bi;
+                    bi2.X = (int)total;
+                    bi2.Y = 0;
+                    images.Add(bi2);
                 }
             }
 
@@ -85,11 +97,11 @@ namespace SpriteSheet
 
                     for (int i = 0; i < images.Count; i++)
                     {
-                        spriteSheetImage.Blit(new Rect(total2, 0, images[i].Width, images[i].Height),
-                                          new WriteableBitmap(images[i]),
-                                          new Rect(0, 0, images[i].Width, images[i].Height));
+                        spriteSheetImage.Blit(new Rect(total2, 0, images[i].images2.Width, images[i].images2.Height),
+                                          new WriteableBitmap(images[i].images2),
+                                          new Rect(0, 0, images[i].images2.Width, images[i].images2.Height));
 
-                        total2 += (int)images[i].Width;
+                        total2 += (int)images[i].images2.Width;
                     }
 
                     var frame = BitmapFrame.Create(spriteSheetImage);
@@ -128,16 +140,16 @@ namespace SpriteSheet
                 for (int i = 0; i < images.Count; i++)
                 {
                     XmlElement SpriteChild = doc.CreateElement("sprite");
-                    //string x = images[i].X.ToString();
-                    //SpriteChild.SetAttribute("X", x);
+                    string x = images[i].X.ToString();
+                    SpriteChild.SetAttribute("X", x);
 
-                    //string y = images[i].Y.ToString();
-                    //SpriteChild.SetAttribute("Y", y);
+                    string y = images[i].Y.ToString();
+                    SpriteChild.SetAttribute("Y", y);
 
-                    string width = images[i].Width.ToString();
+                    string width = images[i].images2.Width.ToString();
                     SpriteChild.SetAttribute("Width", width);
 
-                    string height = images[i].Height.ToString();
+                    string height = images[i].images2.Height.ToString();
                     SpriteChild.SetAttribute("Height", height);
 
                     Atlas.AppendChild(SpriteChild);
